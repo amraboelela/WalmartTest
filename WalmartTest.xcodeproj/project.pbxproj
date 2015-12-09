@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C51C2B3A1C17E93200990530 /* WMProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C51C2B391C17E93200990530 /* WMProductCell.m */; };
+		C529C3801C17E09100F3D75B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C529C37F1C17E09100F3D75B /* UIKit.framework */; };
+		C529C3821C17E09100F3D75B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C529C3811C17E09100F3D75B /* Foundation.framework */; };
+		C529C3841C17E09100F3D75B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C529C3831C17E09100F3D75B /* CoreGraphics.framework */; };
+		C529C38A1C17E09100F3D75B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C529C3881C17E09100F3D75B /* InfoPlist.strings */; };
+		C529C38C1C17E09100F3D75B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C529C38B1C17E09100F3D75B /* main.m */; };
+		C529C3901C17E09100F3D75B /* WMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C529C38F1C17E09100F3D75B /* WMAppDelegate.m */; };
+		C529C3931C17E09100F3D75B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C529C3911C17E09100F3D75B /* MainStoryboard_iPhone.storyboard */; };
+		C529C3991C17E09100F3D75B /* WMMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C529C3981C17E09100F3D75B /* WMMasterViewController.m */; };
+		C529C39C1C17E09100F3D75B /* WMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C529C39B1C17E09100F3D75B /* WMDetailViewController.m */; };
+		C529C3A71C17E72F00F3D75B /* WMProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C529C3A61C17E72E00F3D75B /* WMProductCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C51C2B381C17E93100990530 /* WMProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMProductCell.h; sourceTree = "<group>"; };
+		C51C2B391C17E93200990530 /* WMProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMProductCell.m; sourceTree = "<group>"; };
+		C529C37B1C17E09100F3D75B /* WalmartTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalmartTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C529C37F1C17E09100F3D75B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C529C3811C17E09100F3D75B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C529C3831C17E09100F3D75B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C529C3871C17E09100F3D75B /* WalmartTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WalmartTest-Info.plist"; sourceTree = "<group>"; };
+		C529C3891C17E09100F3D75B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C529C38B1C17E09100F3D75B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C529C38D1C17E09100F3D75B /* WalmartTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WalmartTest-Prefix.pch"; sourceTree = "<group>"; };
+		C529C38E1C17E09100F3D75B /* WMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMAppDelegate.h; sourceTree = "<group>"; };
+		C529C38F1C17E09100F3D75B /* WMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMAppDelegate.m; sourceTree = "<group>"; };
+		C529C3921C17E09100F3D75B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		C529C3971C17E09100F3D75B /* WMMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMMasterViewController.h; sourceTree = "<group>"; };
+		C529C3981C17E09100F3D75B /* WMMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMMasterViewController.m; sourceTree = "<group>"; };
+		C529C39A1C17E09100F3D75B /* WMDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMDetailViewController.h; sourceTree = "<group>"; };
+		C529C39B1C17E09100F3D75B /* WMDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMDetailViewController.m; sourceTree = "<group>"; };
+		C529C3A61C17E72E00F3D75B /* WMProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMProductCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C529C3781C17E09100F3D75B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C529C3801C17E09100F3D75B /* UIKit.framework in Frameworks */,
+				C529C3821C17E09100F3D75B /* Foundation.framework in Frameworks */,
+				C529C3841C17E09100F3D75B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C529C3701C17E09000F3D75B = {
+			isa = PBXGroup;
+			children = (
+				C529C3851C17E09100F3D75B /* WalmartTest */,
+				C529C37E1C17E09100F3D75B /* Frameworks */,
+				C529C37C1C17E09100F3D75B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C529C37C1C17E09100F3D75B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C529C37B1C17E09100F3D75B /* WalmartTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C529C37E1C17E09100F3D75B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C529C37F1C17E09100F3D75B /* UIKit.framework */,
+				C529C3811C17E09100F3D75B /* Foundation.framework */,
+				C529C3831C17E09100F3D75B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C529C3851C17E09100F3D75B /* WalmartTest */ = {
+			isa = PBXGroup;
+			children = (
+				C529C38E1C17E09100F3D75B /* WMAppDelegate.h */,
+				C529C38F1C17E09100F3D75B /* WMAppDelegate.m */,
+				C529C3911C17E09100F3D75B /* MainStoryboard_iPhone.storyboard */,
+				C529C3971C17E09100F3D75B /* WMMasterViewController.h */,
+				C529C3981C17E09100F3D75B /* WMMasterViewController.m */,
+				C529C39A1C17E09100F3D75B /* WMDetailViewController.h */,
+				C529C39B1C17E09100F3D75B /* WMDetailViewController.m */,
+				C529C3861C17E09100F3D75B /* Supporting Files */,
+				C51C2B381C17E93100990530 /* WMProductCell.h */,
+				C51C2B391C17E93200990530 /* WMProductCell.m */,
+				C529C3A61C17E72E00F3D75B /* WMProductCell.xib */,
+			);
+			path = WalmartTest;
+			sourceTree = "<group>";
+		};
+		C529C3861C17E09100F3D75B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C529C3871C17E09100F3D75B /* WalmartTest-Info.plist */,
+				C529C3881C17E09100F3D75B /* InfoPlist.strings */,
+				C529C38B1C17E09100F3D75B /* main.m */,
+				C529C38D1C17E09100F3D75B /* WalmartTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C529C37A1C17E09100F3D75B /* WalmartTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C529C39F1C17E09100F3D75B /* Build configuration list for PBXNativeTarget "WalmartTest" */;
+			buildPhases = (
+				C529C3771C17E09100F3D75B /* Sources */,
+				C529C3781C17E09100F3D75B /* Frameworks */,
+				C529C3791C17E09100F3D75B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WalmartTest;
+			productName = WalmartTest;
+			productReference = C529C37B1C17E09100F3D75B /* WalmartTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C529C3721C17E09000F3D75B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Apple;
+			};
+			buildConfigurationList = C529C3751C17E09000F3D75B /* Build configuration list for PBXProject "WalmartTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C529C3701C17E09000F3D75B;
+			productRefGroup = C529C37C1C17E09100F3D75B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C529C37A1C17E09100F3D75B /* WalmartTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C529C3791C17E09100F3D75B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C529C38A1C17E09100F3D75B /* InfoPlist.strings in Resources */,
+				C529C3931C17E09100F3D75B /* MainStoryboard_iPhone.storyboard in Resources */,
+				C529C3A71C17E72F00F3D75B /* WMProductCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C529C3771C17E09100F3D75B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C529C38C1C17E09100F3D75B /* main.m in Sources */,
+				C529C3901C17E09100F3D75B /* WMAppDelegate.m in Sources */,
+				C529C3991C17E09100F3D75B /* WMMasterViewController.m in Sources */,
+				C529C39C1C17E09100F3D75B /* WMDetailViewController.m in Sources */,
+				C51C2B3A1C17E93200990530 /* WMProductCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C529C3881C17E09100F3D75B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C529C3891C17E09100F3D75B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C529C3911C17E09100F3D75B /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C529C3921C17E09100F3D75B /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C529C39D1C17E09100F3D75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C529C39E1C17E09100F3D75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C529C3A01C17E09100F3D75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WalmartTest/WalmartTest-Prefix.pch";
+				INFOPLIST_FILE = "WalmartTest/WalmartTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C529C3A11C17E09100F3D75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WalmartTest/WalmartTest-Prefix.pch";
+				INFOPLIST_FILE = "WalmartTest/WalmartTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C529C3751C17E09000F3D75B /* Build configuration list for PBXProject "WalmartTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C529C39D1C17E09100F3D75B /* Debug */,
+				C529C39E1C17E09100F3D75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C529C39F1C17E09100F3D75B /* Build configuration list for PBXNativeTarget "WalmartTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C529C3A01C17E09100F3D75B /* Debug */,
+				C529C3A11C17E09100F3D75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C529C3721C17E09000F3D75B /* Project object */;
+}
