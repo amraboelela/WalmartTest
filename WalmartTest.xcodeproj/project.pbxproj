@@ -18,6 +18,7 @@
 		C529C3991C17E09100F3D75B /* WMMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C529C3981C17E09100F3D75B /* WMMasterViewController.m */; };
 		C529C39C1C17E09100F3D75B /* WMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C529C39B1C17E09100F3D75B /* WMDetailViewController.m */; };
 		C529C3A71C17E72F00F3D75B /* WMProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C529C3A61C17E72E00F3D75B /* WMProductCell.xib */; };
+		C560DF3A1C18E46800B5B06C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C560DF391C18E46800B5B06C /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		C529C39A1C17E09100F3D75B /* WMDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMDetailViewController.h; sourceTree = "<group>"; };
 		C529C39B1C17E09100F3D75B /* WMDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMDetailViewController.m; sourceTree = "<group>"; };
 		C529C3A61C17E72E00F3D75B /* WMProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMProductCell.xib; sourceTree = "<group>"; };
+		C560DF391C18E46800B5B06C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		C529C3851C17E09100F3D75B /* WalmartTest */ = {
 			isa = PBXGroup;
 			children = (
+				C560DF391C18E46800B5B06C /* README.md */,
 				C529C38E1C17E09100F3D75B /* WMAppDelegate.h */,
 				C529C38F1C17E09100F3D75B /* WMAppDelegate.m */,
 				C529C3911C17E09100F3D75B /* MainStoryboard_iPhone.storyboard */,
@@ -165,6 +168,7 @@
 				C529C38A1C17E09100F3D75B /* InfoPlist.strings in Resources */,
 				C529C3931C17E09100F3D75B /* MainStoryboard_iPhone.storyboard in Resources */,
 				C529C3A71C17E72F00F3D75B /* WMProductCell.xib in Resources */,
+				C560DF3A1C18E46800B5B06C /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
